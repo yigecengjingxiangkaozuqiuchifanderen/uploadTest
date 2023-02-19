@@ -25,7 +25,7 @@ public class BannerServiceImpl implements BannerService {
 
     @Override
     public List<Banner> list1() {
-        System.out.println("v1");
+        System.out.println("test");
         return null;
     }
 
