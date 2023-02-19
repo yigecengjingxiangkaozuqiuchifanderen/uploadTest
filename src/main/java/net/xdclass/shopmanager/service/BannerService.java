@@ -9,5 +9,7 @@ public interface BannerService {
 
     List<Banner> list();
 
+    List<Banner> list1();
+
 
 }

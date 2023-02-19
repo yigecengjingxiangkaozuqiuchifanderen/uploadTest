@@ -23,5 +23,8 @@ public class BannerServiceImpl implements BannerService {
         return bannerMapper.selectList(lambdaQueryWrapper);
     }
 
-
+    @Override
+    public List<Banner> list1() {
+        return null;
+    }
 }
