@@ -20,6 +20,7 @@ public class BannerController {
     @RequestMapping("list")
     public JsonData bannerlist(){
         List<Banner> list = bannerService.list();
+        System.out.println(111);
         return JsonData.buildSuccess(list);
     }
 
