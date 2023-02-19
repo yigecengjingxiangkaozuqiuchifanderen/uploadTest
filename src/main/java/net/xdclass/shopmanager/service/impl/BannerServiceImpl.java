@@ -27,4 +27,9 @@ public class BannerServiceImpl implements BannerService {
     public List<Banner> list1() {
         return null;
     }
+
+  @Override
+    public List<Banner> list2() {
+        return null;
+    }
 }

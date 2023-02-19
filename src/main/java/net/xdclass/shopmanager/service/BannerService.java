@@ -11,5 +11,5 @@ public interface BannerService {
 
     List<Banner> list1();
 
-
+ List<Banner> list2();
 }
